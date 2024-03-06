@@ -1,0 +1,84 @@
+section {
+    height: 100vh;
+    scroll-snap-align: start ;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+.interface {
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow: scroll;
+}
+
+.page1{
+
+    background-image: url(Imagens/foto\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    font-size: 7rem;
+    font-weight: 700;
+}
+
+.page2{
+
+
+    background-image: url(Imagens/foto\ 2.0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    font-size: 7rem;
+    font-weight: 700;
+
+
+}
+
+.page3{
+    
+    background-image: url(Imagens/foto\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top;
+    font-size: 7rem;
+    font-weight: 700;
+}
+
+    .page4{
+        
+    background-image: url(Imagens/foto\ 04.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   font-size: 7rem;
+   font-weight: 700;
+    }
+
+    .page5{
+        
+    background-image: url(Imagens/foto\ 05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 7rem;
+    font-weight: 700;
+    }
